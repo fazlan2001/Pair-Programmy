@@ -6,7 +6,7 @@ export const useWebSocket = (roomId, onMessageReceived) => {
   const clientRef = useRef(null);
 
   const connect = () => {
-    const socket = new SockJS('http://localhost:8080/ws');
+    const socket = new SockJS('https://pairprogrammy.onrender.com/ws');
     const client = new Client({
       webSocketFactory: () => socket,
       onConnect: () => {
