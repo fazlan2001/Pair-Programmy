@@ -1,0 +1,18 @@
+.remote-cursor {
+  position: relative;
+  width: 2px !important;
+  background-color: rgba(0, 255, 255, 0.8); /* Cyan */
+}
+
+.remote-cursor-label {
+  background: #333;
+  color: white;
+  font-size: 12px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-left: 4px;
+  position: relative;
+  top: -1.2em;
+  display: inline-block;
+}
